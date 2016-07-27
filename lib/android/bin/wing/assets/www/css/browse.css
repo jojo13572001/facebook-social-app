@@ -1,0 +1,80 @@
+/******************GLOBAL**************************/
+.ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper { background:#56bdb2; }
+
+html { 
+	width:100%;
+	/*overflow-x:hidden;*/
+	font-family:Helvetica, Arial, sans-serif; 
+	-webkit-text-size-adjust:100%; 
+    font-size:100%;
+	background-color:#56bdb2;
+}
+
+body {
+	width:100%;
+    /*overflow:hidden;*/
+    -webkit-user-select:none;
+    background-color:#56bdb2;
+}
+
+input,textarea
+{
+    -webkit-user-select:text;
+    -moz-user-select:text;
+}
+
+/*browse page*/
+#browse_pid, #fourHead_pid, #profile_pid {
+	padding:0;
+	margin:0;
+    width:100%;
+	height: 100%;
+}
+#browse_pid .ui-content, #fourHead_pid .ui-content{
+    padding:0;
+	margin:0;
+	background:#56bdb2;
+	width:100%;
+	height: 100%;
+}​
+#browse_pid .ui-content  #browse_pid, 
+#fourHead_pid .ui-content  #fourHead_pid
+{
+
+}
+#browse_tbl, #fourHead_tbl {
+	font-size:100%;
+	width:100%;
+	height: 100%;
+}
+.browse{
+	-webkit-mask-box-image: url(../img/wround.png);
+	width:243px;
+	height:243px;
+	position:absolute;
+	top:0;
+	z-index:10;
+}
+.round{
+	position:absolute;
+	top:0;
+	width:280px;
+	height:280px;
+	z-index:9;
+}
+.like{
+	position:absolute;
+	top:0;
+	z-index:11;
+	opacity:0;
+}
+.div_RCL{
+	position:relative;
+	display:inline;
+	top:0;
+	z-index:6;
+}
+/*Tablet*/
+@media handheld, only screen and (min-width:768px) {
+
+}
